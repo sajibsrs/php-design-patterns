@@ -1,0 +1,15 @@
+{
+    "name": "sajibsrs/php8-design-patterns",
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sajidur Rahman",
+            "email": "sajibsrs@gmail.com"
+        }
+    ],
+    "require": {}
+}
