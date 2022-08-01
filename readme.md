@@ -3,7 +3,7 @@
 ## # Patterns
 
 ### # Creational
-* **Factory method**
+* *Factory method*
 * **Abstract factory**
 * **Builder**
 * Prototype
