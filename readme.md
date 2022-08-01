@@ -4,10 +4,10 @@
 
 ### # Creational
 * *Factory method*
-* **Abstract factory**
-* **Builder**
+* *Abstract factory*
+* *Builder*
 * Prototype
-* **Singleton**
+* *Singleton*
 
 ### # Structural
 * Adapter
