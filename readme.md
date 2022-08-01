@@ -3,11 +3,11 @@
 ## # Patterns
 
 ### # Creational
-* *Factory method*
-* *Abstract factory*
-* *Builder*
-* Prototype
-* *Singleton*
+* **Factory method**
+* **Abstract factory**
+* **Builder**
+* *Prototype*
+* **Singleton**
 
 ### # Structural
 * Adapter
