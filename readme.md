@@ -27,7 +27,7 @@ php -S localhost:8000
 * **Singleton**
 
 ### # Structural
-* **Adapter**
+* **Adapter** ~(Done)~
 * *Bridge*
 * **Composite**
 * **Decorator**
