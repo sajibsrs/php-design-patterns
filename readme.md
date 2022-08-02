@@ -27,11 +27,11 @@ php -S localhost:8000
 * **Singleton**
 
 ### # Structural
-* **Adapter** ~(Done)~
+* [x] **Adapter**
 * *Bridge*
 * **Composite**
 * **Decorator**
-* **Facade**
+* [x] **Facade**
 * *Flyweight*
 * **Proxy**
 
@@ -41,11 +41,11 @@ php -S localhost:8000
 * **Iterator**
 * *Mediator*
 * *Memento*
-* **Observer**
+* [x] **Observer**
 * *State*
-* **Strategy**
+* [x] **Strategy**
 * **Template method**
-* *Visitor*
+* [x] *Visitor*
 
 ## Testing
 Run command on project root directory:
