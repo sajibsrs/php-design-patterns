@@ -1,4 +1,4 @@
-# php8-design-patterns
+# Modern PHP Design Patterns (version 7.4 or greater)
 
 ## # Patterns
 
