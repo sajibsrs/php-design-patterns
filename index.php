@@ -9,6 +9,9 @@ use DesignPatterns\Behavioral\Strategy\HttpPost;
 use DesignPatterns\Behavioral\Visitor\TextNode;
 use DesignPatterns\Behavioral\Visitor\ImageNode;
 use DesignPatterns\Behavioral\Visitor\HtmlNodeVisitor;
+use DesignPatterns\Structural\Adapter\ConcreteProduct;
+use DesignPatterns\Structural\Adapter\Ebook;
+use DesignPatterns\Structural\Adapter\PrintedBook;
 use DesignPatterns\Structural\Facade\ImageUploader;
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -67,3 +70,16 @@ $imageUploader = new ImageUploader("image.png");
 print("--- Facade pattern ---\n");
 
 printf("Uploaded: %s\n", $imageUploader->upload());
+
+/**
+ * Adapter pattern usage example
+ */
+
+$product        = new ConcreteProduct("SKU10");
+$printedBook    = new PrintedBook($product);
+$ebook          = new Ebook("SKU20");
+
+print("--- Adapter pattern ---\n");
+
+echo $ebook->placeOrder();
+echo $printedBook->placeOrder();
