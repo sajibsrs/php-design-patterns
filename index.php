@@ -28,18 +28,18 @@ printf("Text content: %s\n", $textNode->accept($visitor));
  * Strategy pattern usage example
  */
 $context            = new Context();
-$HttpGetStrategy    = new HttpGet("/home");
+$httpGetStrategy    = new HttpGet("/home");
 
-$context->setStrategy($HttpGetStrategy);
+$context->setStrategy($httpGetStrategy);
 
 print("--- Strategy pattern ---\n");
 
 printf("HTTP method: %s\n", $context->execute());
 printf("Request URL: %s\n", $context->getStrategy()->getUrl());
 
-$HttpSetStrategy = new HttpPost("/contact");
+$httpSetStrategy = new HttpPost("/contact");
 
-$context->setStrategy($HttpSetStrategy);
+$context->setStrategy($httpSetStrategy);
 
 printf("HTTP method: %s\n", $context->execute());
 printf("Request URL: %s\n", $context->getStrategy()->getUrl());
