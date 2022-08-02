@@ -3,7 +3,7 @@
 
 ## # Intention
 The intention is to simplify the ideas of different design patterns. The code examples are 
-overly simplified. These examples only focuses on what's important and additional operations kept to as minimal as possible.
+overly simplified. These examples only focuses on what's important and additional operations kept to as minimal as possible. It's more like proof of concept.
 
 ## # Patterns
 Example uses of design patterns can be found in `index.php` in the root directory. You can either run it 
