@@ -1,6 +1,10 @@
 # Modern PHP Design Patterns
 (PHP version 7.4 or greater)
 
+## # Intention
+The intension is to simplify the ideas of different design patterns. The code examples are 
+overly simplified. These examples only focuses on what's important and additional operations kept to as minimal as possible.
+
 ## # Patterns
 
 ### # Creational
