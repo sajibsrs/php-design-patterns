@@ -6,6 +6,18 @@ The intention is to simplify the ideas of different design patterns. The code ex
 overly simplified. These examples only focuses on what's important and additional operations kept to as minimal as possible.
 
 ## # Patterns
+Example uses of design patterns can be found in `index.php` in the root directory. You can either run it 
+from terminal or built-in php server.
+
+Run from terminal:
+```console
+php index.php
+```
+
+Run built-in server:
+```console
+php -S localhost:8000
+```
 
 ### # Creational
 * **Factory method**
