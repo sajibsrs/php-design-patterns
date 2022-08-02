@@ -9,6 +9,7 @@ use DesignPatterns\Behavioral\Strategy\HttpPost;
 use DesignPatterns\Behavioral\Visitor\TextNode;
 use DesignPatterns\Behavioral\Visitor\ImageNode;
 use DesignPatterns\Behavioral\Visitor\HtmlNodeVisitor;
+use DesignPatterns\Structural\Facade\ImageUploader;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
@@ -57,3 +58,12 @@ $subject->attach($desktop);
 print("--- Observer pattern ---\n");
 
 $subject->notify();
+
+/**
+ * Facade pattern usage example
+ */
+$imageUploader = new ImageUploader("image.png");
+
+print("--- Facade pattern ---\n");
+
+printf("Uploaded: %s\n", $imageUploader->upload());
