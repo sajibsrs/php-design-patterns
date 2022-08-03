@@ -9,6 +9,7 @@ use DesignPatterns\Behavioral\Strategy\HttpPost;
 use DesignPatterns\Behavioral\Visitor\TextNode;
 use DesignPatterns\Behavioral\Visitor\ImageNode;
 use DesignPatterns\Behavioral\Visitor\HtmlNodeVisitor;
+use DesignPatterns\Creational\Singleton\Singleton;
 use DesignPatterns\Structural\Adapter\ConcreteProduct;
 use DesignPatterns\Structural\Adapter\Ebook;
 use DesignPatterns\Structural\Adapter\PrintedBook;
@@ -83,3 +84,13 @@ print("--- Adapter pattern ---\n");
 
 echo $ebook->placeOrder();
 echo $printedBook->placeOrder();
+
+/**
+ * Singleton pattern usage example
+ */
+
+$singleton  = Singleton::getInstance();
+
+print("--- Singleton pattern ---\n");
+
+echo $singleton;
