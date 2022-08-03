@@ -11,24 +11,24 @@ class ConcreteProduct
         $this->sku = $sku;
     }
 
-    public function addToCart(): void
+    public function addToCart(): string
     {
-        // Adding product to the cart
+        return sprintf("Product with sku: %s added to cart\n", $this->sku);
     }
 
-    public function collect(): void
+    public function collect(): string
     {
-        // Collect the product
+        return sprintf("Product with sku: %s being collected\n", $this->sku);
     }
 
-    public function pack(): void
+    public function pack(): string
     {
-        // Pack the product
+        return sprintf("Product with sku: %s being packed\n", $this->sku);
     }
 
-    public function deliver(): void
+    public function deliver(): string
     {
-        // Deliver the product
+        return sprintf("Product with sku: %s being delivered\n", $this->sku);
     }
 
     public function getSku(): string
