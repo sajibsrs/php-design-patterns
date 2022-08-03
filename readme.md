@@ -24,7 +24,7 @@ php -S localhost:8000
 * **Abstract factory**
 * **Builder**
 * *Prototype*
-* **Singleton**
+* [x] **Singleton**
 
 ### # Structural
 * [x] **Adapter**
