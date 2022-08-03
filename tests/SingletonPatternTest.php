@@ -21,7 +21,7 @@ final class SingletonPatternTest extends TestCase
     {
         $singleton = Singleton::getInstance();
 
-        $this->assertNotEmpty($singleton->__toString());
+        $this->assertNotEmpty(strval($singleton));
     }
 
     public function testCloneDisabled(): void
