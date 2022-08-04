@@ -30,7 +30,7 @@ php -S localhost:8000
 * [x] **Adapter**
 * *Bridge*
 * **Composite**
-* **Decorator**
+* [x] **Decorator**
 * [x] **Facade**
 * *Flyweight*
 * **Proxy**
