@@ -13,6 +13,9 @@ use DesignPatterns\Creational\Singleton\Singleton;
 use DesignPatterns\Structural\Adapter\ConcreteProduct;
 use DesignPatterns\Structural\Adapter\Ebook;
 use DesignPatterns\Structural\Adapter\PrintedBook;
+use DesignPatterns\Structural\Decorator\BookingBuffet;
+use DesignPatterns\Structural\Decorator\BookingEntryFee;
+use DesignPatterns\Structural\Decorator\BookingSingleRide;
 use DesignPatterns\Structural\Facade\ImageUploader;
 
 require_once __DIR__ . '/vendor/autoload.php';
@@ -94,3 +97,17 @@ $singleton  = Singleton::getInstance();
 print("--- Singleton pattern ---\n");
 
 echo $singleton;
+
+/**
+ * Decorator patter usage example
+ */
+
+$entryFee   = new BookingEntryFee();
+$singleRide = new BookingSingleRide($entryFee);
+$buffet     = new BookingBuffet($entryFee);
+
+print("--- Decorator pattern ---\n");
+
+printf("%1s: %2s USD\n", $entryFee->getDescription(), $entryFee->getPrice());
+printf("%1s: %2s USD\n", $singleRide->getDescription(), $singleRide->getPrice());
+printf("%1s: %2s USD\n", $buffet->getDescription(), $buffet->getPrice());
