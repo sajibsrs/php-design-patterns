@@ -44,7 +44,7 @@ php -S localhost:8000
 * [x] **Observer**
 * *State*
 * [x] **Strategy**
-* **Template method**
+* [x] **Template method**
 * [x] *Visitor*
 
 ## Testing
