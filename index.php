@@ -6,6 +6,8 @@ use DesignPatterns\Behavioral\Observer\Subject;
 use DesignPatterns\Behavioral\Strategy\Context;
 use DesignPatterns\Behavioral\Strategy\HttpGet;
 use DesignPatterns\Behavioral\Strategy\HttpPost;
+use DesignPatterns\Behavioral\TemplateMethod\Bird;
+use DesignPatterns\Behavioral\TemplateMethod\Fish;
 use DesignPatterns\Behavioral\Visitor\TextNode;
 use DesignPatterns\Behavioral\Visitor\ImageNode;
 use DesignPatterns\Behavioral\Visitor\HtmlNodeVisitor;
@@ -111,3 +113,17 @@ print("--- Decorator pattern ---\n");
 printf("%1s: %2s USD\n", $entryFee->getDescription(), $entryFee->getPrice());
 printf("%1s: %2s USD\n", $singleRide->getDescription(), $singleRide->getPrice());
 printf("%1s: %2s USD\n", $buffet->getDescription(), $buffet->getPrice());
+
+/**
+ * Template Method patter usage example
+ */
+
+$fish = new Fish();
+$bird = new Bird();
+
+print("--- Template Method pattern ---\n");
+
+printf("%s\n", $fish->swim());
+printf("%s\n", $fish->fly());
+printf("%s\n", $bird->swim());
+printf("%s\n", $bird->fly());
