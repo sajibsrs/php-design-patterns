@@ -7,8 +7,9 @@ overly simplified. These examples only focuses on what's important and additiona
 
 ## # Patterns
 ### # Creational
-* **Factory method**
-* **Abstract factory**
+* [**Simple Factory**](./creational/simple-factory.md)
+* **Factory Method**
+* **Abstract Factory**
 * **Builder**
 * *Prototype*
 * [x] **Singleton**
@@ -23,7 +24,7 @@ overly simplified. These examples only focuses on what's important and additiona
 * **Proxy**
 
 ### # Behavioral
-* **Chain of responsibility**
+* **Chain of Responsibility**
 * *Command*
 * **Iterator**
 * *Mediator*
@@ -31,5 +32,5 @@ overly simplified. These examples only focuses on what's important and additiona
 * [x] **Observer**
 * *State*
 * [x] **Strategy**
-* [x] **Template method**
+* [x] **Template Method**
 * [x] *Visitor*
