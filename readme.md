@@ -1,11 +1,11 @@
-# # Modern PHP Design Patterns
+# 🐘 Modern PHP Design Patterns
 The intention is to simplify the ideas of different design patterns. The code examples are
 overly simplified. Focusing on what actually matters.
 
 `Examples uses PHP version 8.0 or above.`
 
 ### # Design Patterns
-#### # Creational
+#### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * **Factory Method**
 * **Abstract Factory**
@@ -13,7 +13,7 @@ overly simplified. Focusing on what actually matters.
 * **Prototype**
 * **Singleton**
 
-#### # Structural
+#### 🏛️ Structural
 * **Adapter**
 * **Bridge**
 * **Composite**
@@ -22,7 +22,7 @@ overly simplified. Focusing on what actually matters.
 * **Flyweight**
 * **Proxy**
 
-#### # Behavioral
+#### 🤝 Behavioral
 * **Chain of Responsibility**
 * **Command**
 * **Iterator**
