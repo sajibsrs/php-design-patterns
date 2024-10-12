@@ -1,38 +1,35 @@
 # # Modern PHP Design Patterns
-Minimum PHP version 8.0
-
-## # Intention
 The intention is to simplify the ideas of different design patterns. The code examples are
 overly simplified. Focusing on what actually matters.
 
-*It's more like proof of concept of the design patterns.*
+    Examples uses PHP version 8.0 or above.
 
-## # Patterns
-### # Creational
+### # Design Patterns
+#### # Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * **Factory Method**
 * **Abstract Factory**
 * **Builder**
-* *Prototype*
-* [x] **Singleton**
+* **Prototype**
+* **Singleton**
 
-### # Structural
-* [x] **Adapter**
-* *Bridge*
+#### # Structural
+* **Adapter**
+* **Bridge**
 * **Composite**
-* [x] **Decorator**
-* [x] **Facade**
-* *Flyweight*
+* **Decorator**
+* **Facade**
+* **Flyweight**
 * **Proxy**
 
-### # Behavioral
+#### # Behavioral
 * **Chain of Responsibility**
-* *Command*
+* **Command**
 * **Iterator**
-* *Mediator*
-* *Memento*
-* [x] **Observer**
-* *State*
-* [x] **Strategy**
-* [x] **Template Method**
-* [x] *Visitor*
+* **Mediator**
+* **Memento**
+* **Observer**
+* **State**
+* **Strategy**
+* **Template Method**
+* **Visitor**
