@@ -1,4 +1,4 @@
-# 🐘 Modern PHP Design Patterns
+# Modern PHP Design Patterns
 The intention is to simplify the ideas of different design patterns. The code examples are
 overly simplified. Focusing on what actually matters.
 
