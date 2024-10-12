@@ -1,5 +1,5 @@
 # # Modern PHP Design Patterns
-(PHP version 7.4 or greater)
+(PHP version 8.0 or latest)
 
 ## # Intention
 The intention is to simplify the ideas of different design patterns. The code examples are
