@@ -59,12 +59,12 @@ $fantasyBook = $fantasyBookFactory->make("Lord of the Rings");
 echo $fantasyBook->getName();
 
 $scienceFictionBookFactory = new ScienceFictionBookFactory();
-$scienceFictionBook = $scienceFictionBookFactory->make("Dune");
+$scienceFictionBook = $scienceFictionBookFactory->make("The Martian");
 echo $scienceFictionBook->getName();
 ```
 
 Output:
 ```txt
 Lord of the Rings
-Dune
+The Martian
 ````
