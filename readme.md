@@ -18,7 +18,7 @@ overly simplified. Focusing on what actually matters.
 * **Bridge**
 * **Composite**
 * **Decorator**
-* **Facade**
+* [**Facade**](./structural/facade.md)
 * **Flyweight**
 * **Proxy**
 
