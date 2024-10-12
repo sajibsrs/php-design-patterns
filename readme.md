@@ -8,7 +8,7 @@ overly simplified. Focusing on what actually matters.
 #### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * [**Factory Method**](./creational/factory-method.md)
-* **Abstract Factory**
+* [**Abstract Factory**](./creational/abstract-factory.md)
 * **Builder**
 * **Prototype**
 * **Singleton**
