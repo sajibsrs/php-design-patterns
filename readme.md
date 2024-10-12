@@ -2,7 +2,7 @@
 The intention is to simplify the ideas of different design patterns. The code examples are
 overly simplified. Focusing on what actually matters.
 
-    Examples uses PHP version 8.0 or above.
+`Examples uses PHP version 8.0 or above.`
 
 ### # Design Patterns
 #### # Creational
