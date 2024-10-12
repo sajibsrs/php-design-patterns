@@ -1,9 +1,11 @@
 # # Modern PHP Design Patterns
-(PHP version 8.0 or latest)
+Minimum PHP version 8.0
 
 ## # Intention
 The intention is to simplify the ideas of different design patterns. The code examples are
-overly simplified. These examples only focuses on what's important and additional operations kept to as minimal as possible. *It's more like proof of concept.*
+overly simplified. Focusing on what actually matters.
+
+*It's more like proof of concept of the design patterns.*
 
 ## # Patterns
 ### # Creational
