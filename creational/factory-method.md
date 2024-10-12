@@ -52,7 +52,7 @@ class ScienceFictionBookFactory implements BookFactory {
 }
 ```
 
-Usage:
+#### Usage:
 ```php
 $fantasyBookFactory = new FantasyBookFactory();
 $fantasyBook = $fantasyBookFactory->make("Lord of the Rings");
@@ -63,7 +63,7 @@ $scienceFictionBook = $scienceFictionBookFactory->make("The Martian");
 echo $scienceFictionBook->getName();
 ```
 
-Output:
+#### Output:
 ```txt
 Lord of the Rings
 The Martian

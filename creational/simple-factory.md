@@ -1,7 +1,7 @@
 # Simple Factory Design Pattern
 Simple factory simply creates an instance without exposing any instantiation details to the client.
 
-#### How to apply
+### How to apply
 
 ```php
 interface Book
@@ -28,12 +28,14 @@ class BookFactory {
     }
 }
 ```
-Usage:
+
+#### Usage:
 ```php
 $book = BookFactory::make("Lord of the Rings");
 echo $book->getName();
 ```
-Output:
+
+#### Output:
 ```txt
 Lord of the Rings
 ```
