@@ -1,4 +1,4 @@
-# # PHP Factory Method Design Pattern
+# PHP Factory Method Design Pattern
 In the Factory Method design pattern, the responsibility for object creation is delegated to subclasses.
 
 ### How to apply?
