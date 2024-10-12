@@ -124,7 +124,7 @@ function createBookSet(BookFactory $factory, string $name) {
     $book = $factory->createBook($name);
     $cover = $factory->createBookCover();
 
-    echo $book->getName() . " with a " . $cover->getType();
+    echo "{$book->getName()} with a {$cover->getType()}";
 }
 ```
 
