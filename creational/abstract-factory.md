@@ -116,3 +116,28 @@ Fantasy book cover
 The Martian
 Science fiction book cover
 ```
+
+Improvement: Here is some improvement to our code to reduce the code repeat from the previous `usage` section.
+```php
+function createBookSet(BookFactory $factory, string $name) {
+    $book = $factory->createBook($name);
+    $cover = $factory->createBookCover();
+
+    echo $book->getName() . " with a " . $cover->getType();
+}
+```
+
+Usage:
+```php
+$fantasyBookFactory = new FantasyBookFactory();
+createBookSet($fantasyBookFactory, "Lord of the Rings");
+
+$scienceFictionBookFactory = new ScienceFictionBookFactory();
+createBookSet($scienceFictionBookFactory, "The Martian");
+```
+
+Output:
+```txt
+Lord of the Rings with a Fantasy book cover
+The Martian with a Science fiction book cover
+```
