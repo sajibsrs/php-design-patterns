@@ -91,7 +91,7 @@ class ScienceFictionBookFactory implements BookFactory
 }
 ```
 
-### Usage
+#### Usage:
 ```php
 $fantasyFactory = new FantasyBookFactory();
 $fantasyBook = $fantasyFactory->createBook("Lord of the Rings");
@@ -108,7 +108,7 @@ echo $scienceFictionBook->getName();
 echo $scienceFictionBookCover->getType();
 ```
 
-### Output
+#### Output:
 ```txt
 Lord of the Rings
 Fantasy book cover
@@ -117,7 +117,7 @@ The Martian
 Science fiction book cover
 ```
 
-### Improvement
+#### Improvement:
 Here is some improvement to our code to reduce the code repeat from the previous `usage` section.
 ```php
 function createBookSet(BookFactory $factory, string $name) {
@@ -128,7 +128,7 @@ function createBookSet(BookFactory $factory, string $name) {
 }
 ```
 
-### Usage
+#### Usage:
 ```php
 $fantasyBookFactory = new FantasyBookFactory();
 createBookSet($fantasyBookFactory, "Lord of the Rings");
@@ -137,7 +137,7 @@ $scienceFictionBookFactory = new ScienceFictionBookFactory();
 createBookSet($scienceFictionBookFactory, "The Martian");
 ```
 
-### Output
+#### Output:
 ```txt
 Lord of the Rings with a Fantasy book cover
 The Martian with a Science fiction book cover
