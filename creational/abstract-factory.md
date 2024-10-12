@@ -7,9 +7,7 @@ interface Book
 {
     public function getName(): string;
 }
-```
 
-```php
 class FantasyBook implements Book
 {
     public function __construct(private string $name) {}
@@ -35,9 +33,7 @@ interface BookCover
 {
     public function getType(): string;
 }
-```
 
-```php
 class FantasyBookCover implements BookCover
 {
     public function getType(): string
@@ -61,9 +57,7 @@ interface BookFactory
     public function createBook(string $name): Book;
     public function createBookCover(): BookCover;
 }
-```
 
-```php
 class FantasyBookFactory implements BookFactory
 {
     public function createBook(string $name): Book

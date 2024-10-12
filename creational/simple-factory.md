@@ -8,9 +8,7 @@ interface Book
 {
     public function getName(): string;
 }
-```
 
-```php
 class FantasyBook implements Book
 {
     public function __construct(private string $name) {}
