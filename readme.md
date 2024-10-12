@@ -4,7 +4,7 @@ overly simplified. Focusing on what actually matters.
 
 `Examples uses PHP version 8.0 or above.`
 
-### # Design Patterns
+### Design Patterns:
 #### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * **Factory Method**
