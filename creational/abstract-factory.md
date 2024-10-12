@@ -1,4 +1,4 @@
-# PHP Abstract Factory Design Pattern
+# Abstract Factory Design Pattern
 The Abstract Factory pattern lets you produce families of related or dependent objects without specifying their concrete classes.
 
 ### How to apply
