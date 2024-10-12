@@ -7,7 +7,7 @@ overly simplified. Focusing on what actually matters.
 ### Design Patterns:
 #### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
-* **Factory Method**
+* [**Factory Method**](./creational/factory-method.md)
 * **Abstract Factory**
 * **Builder**
 * **Prototype**
