@@ -11,6 +11,7 @@ interface Book
 class FantasyBook implements Book
 {
     public function __construct(private string $name) {}
+
     public function getName(): string
     {
         return $this->name;
@@ -20,6 +21,7 @@ class FantasyBook implements Book
 class ScienceFictionBook implements Book
 {
     public function __construct(private string $name) {}
+
     public function getName(): string
     {
         return $this->name;
