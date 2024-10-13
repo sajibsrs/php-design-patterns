@@ -1,4 +1,4 @@
-# PHP Design Patterns
+# Design Patterns
 The intention is to simplify the ideas of different design patterns. The code examples are overly simplified. Focusing on what actually matters.
 
 In some case there's **`Improvement`** section that describes how some certain pattern or it's usage can be improved with little effort.
