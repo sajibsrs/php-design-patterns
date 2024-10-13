@@ -88,7 +88,7 @@ Title: The Martian, Author: Andy Weir, Genre: Science Fiction, Price: 14.99
 ```
 
 #### Improvement:
-`BookDirector` builds different books from the same builder class. That helps to hide complex building process and reduce repetitive works.
+`BookDirector` builds different books from the same `BookBuilder` class. That helps to hide complex building process and reduce repetitive works.
 
 ```php
 class BookDirector {
