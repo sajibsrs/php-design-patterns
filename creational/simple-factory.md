@@ -37,3 +37,10 @@ echo $book->getName();
 ```txt
 Lord of the Rings
 ```
+
+#### Note:
+Constructor uses PHP 8.0 **Constructor Property Promotion** syntax. Which declares and assigns class property at the same time.
+
+```php
+public function __construct(private string $name) {}
+```
