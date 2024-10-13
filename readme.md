@@ -9,7 +9,7 @@ overly simplified. Focusing on what actually matters.
 * [**Simple Factory**](./creational/simple-factory.md)
 * [**Factory Method**](./creational/factory-method.md)
 * [**Abstract Factory**](./creational/abstract-factory.md)
-* **Builder**
+* [**Builder**](./creational/builder.md)
 * **Prototype**
 * **Singleton**
 
