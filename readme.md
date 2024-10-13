@@ -3,7 +3,7 @@ The intention is to simplify the ideas of different design patterns. The code ex
 
 In some case there's `improvement` section that describes how some certain pattern or it's usage can be improved with little effort.
 
-`Examples uses PHP version 8.0 or above.`
+>Examples uses PHP 8.0 or above.
 
 ### Design Patterns:
 #### 🍎 Creational
