@@ -47,3 +47,4 @@ Example uses **Constructor Property Promotion** (PHP 8.0) syntax. Which declares
 ```php
 public function __construct(private string $name) {}
 ```
+It's similar to **Member initializer lists** in C++.
