@@ -12,7 +12,7 @@ In some case there's `improvement` section that describes how some certain patte
 * [**Abstract Factory**](./creational/abstract-factory.md)
 * [**Builder**](./creational/builder.md)
 * [**Prototype**](./creational/prototype.md)
-* **Singleton**
+* [**Singleton**](./creational/singleton.md)
 
 #### 🏛️ Structural
 * **Adapter**
