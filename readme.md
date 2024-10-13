@@ -1,11 +1,10 @@
 # PHP Design Patterns
 The intention is to simplify the ideas of different design patterns. The code examples are overly simplified. Focusing on what actually matters.
 
-In some case there's `improvement` section that describes how some certain pattern or it's usage can be improved with little effort.
-
->Examples uses PHP 8.0 or above.
+In some case there's **`Improvement`** section that describes how some certain pattern or it's usage can be improved with little effort.
 
 ### Design Patterns:
+>Examples uses PHP 8.0 or above.
 #### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * [**Factory Method**](./creational/factory-method.md)
