@@ -11,7 +11,7 @@ In some case there's `improvement` section that describes how some certain patte
 * [**Factory Method**](./creational/factory-method.md)
 * [**Abstract Factory**](./creational/abstract-factory.md)
 * [**Builder**](./creational/builder.md)
-* **Prototype**
+* [**Prototype**](./creational/prototype.md)
 * **Singleton**
 
 #### 🏛️ Structural
