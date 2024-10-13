@@ -22,12 +22,14 @@ class Singleton
     private function __clone() {}
 
     // Prevent serialize
-    public function __serialize(): array {
+    public function __serialize(): array
+    {
         throw new Exception("Cannot serialize a singleton");
     }
 
     // Prevent unserialize
-    public function __unserialize(array $data): void {
+    public function __unserialize(array $data): void
+    {
         throw new Exception("Cannot unserialize a singleton");
     }
 

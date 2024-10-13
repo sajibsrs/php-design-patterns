@@ -92,7 +92,8 @@ Title: The Martian, Author: Andy Weir, Genre: Science Fiction, Price: 14.99
 
 ```php
 class BookDirector {
-    public function buildFantasyBook(BookBuilder $builder): Book {
+    public function buildFantasyBook(BookBuilder $builder): Book
+    {
         return $builder
             ->setTitle("The Hobbit")
             ->setAuthor("J.R.R. Tolkien")
@@ -101,7 +102,8 @@ class BookDirector {
             ->build();
     }
 
-    public function buildSciFiBook(BookBuilder $builder): Book {
+    public function buildSciFiBook(BookBuilder $builder): Book
+    {
         return $builder
             ->setTitle("The Martian")
             ->setAuthor("Andy Weir")

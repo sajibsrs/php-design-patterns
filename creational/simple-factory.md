@@ -21,8 +21,10 @@ class FantasyBook implements Book
 ```
 
 ```php
-class BookFactory {
-    public static function make($name): Book {
+class BookFactory
+{
+    public static function make($name): Book
+    {
         return new FantasyBook($name);
     }
 }

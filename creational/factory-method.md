@@ -35,14 +35,16 @@ interface BookFactory {
     public function make(string $name): Book;
 }
 
-class FantasyBookFactory implements BookFactory {
+class FantasyBookFactory implements BookFactory
+{
     public function make(string $name): Book
     {
         return new FantasyBook($name);
     }
 }
 
-class ScienceFictionBookFactory implements BookFactory {
+class ScienceFictionBookFactory implements BookFactory
+{
     public function make(string $name): Book
     {
         return new ScienceFictionBook($name);

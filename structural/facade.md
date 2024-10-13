@@ -43,7 +43,8 @@ class BookOrderFacade
         private Shipping $shipping = new Shipping()
     ) {}
 
-    public function processOrder(string $book, float $price): void {
+    public function processOrder(string $book, float $price): void
+    {
         if ($this->inventory->checkAvailability($book)) {
             if ($this->payment->processPayment($price)) {
                 $this->shipping->processShipping($book);

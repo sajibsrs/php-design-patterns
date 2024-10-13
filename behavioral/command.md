@@ -49,7 +49,8 @@ class RemoveCommand implements Command
 ```php
 // Sender
 
-class LibraryAssistant {
+class LibraryAssistant
+{
     public function process(Command $command) {
         $command->execute();
     }
