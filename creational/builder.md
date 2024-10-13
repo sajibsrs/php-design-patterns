@@ -86,3 +86,44 @@ echo $book->getDescription();
 ```txt
 Title: The Martian, Author: Andy Weir, Genre: Science Fiction, Price: 14.99
 ```
+
+#### Improvement:
+`BookDirector` builds different books from the same builder class. That helps to hide complex building process and reduce repetitive works.
+
+```php
+class BookDirector {
+    public function buildFantasyBook(BookBuilder $builder): Book {
+        return $builder
+            ->setTitle("The Hobbit")
+            ->setAuthor("J.R.R. Tolkien")
+            ->setGenre("Fantasy")
+            ->setPrice(19.99)
+            ->build();
+    }
+
+    public function buildSciFiBook(BookBuilder $builder): Book {
+        return $builder
+            ->setTitle("The Martian")
+            ->setAuthor("Andy Weir")
+            ->setGenre("Science Fiction")
+            ->setPrice(14.99)
+            ->build();
+    }
+}
+```
+#### Usage:
+```php
+$builder = new BookBuilder();
+$director = new BookDirector();
+
+$fantasyBook = $director->buildFantasyBook($builder);
+echo $fantasyBook->getDescription();
+
+$sciFiBook = $director->buildSciFiBook($builder);
+echo $sciFiBook->getDescription();
+```
+### Output:
+```txt
+Title: The Hobbit, Author: J.R.R. Tolkien, Genre: Fantasy, Price: 19.99
+Title: The Martian, Author: Andy Weir, Genre: Science Fiction, Price: 14.99
+```
