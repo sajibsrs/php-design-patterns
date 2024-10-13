@@ -1,6 +1,7 @@
 # PHP Design Patterns
-The intention is to simplify the ideas of different design patterns. The code examples are
-overly simplified. Focusing on what actually matters.
+The intention is to simplify the ideas of different design patterns. The code examples are overly simplified. Focusing on what actually matters.
+
+In some case there's `improvement` section that describes how some patterns usage can be improved with some simple trick.
 
 `Examples uses PHP version 8.0 or above.`
 
