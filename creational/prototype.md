@@ -23,7 +23,7 @@ class Book
 }
 ```
 
-#### Usages:
+#### Usage:
 ```php
 $hobbit = new Book("The Hobbit", "J.R.R. Tolkien", 19.9);
 echo $hobbit->getDescription();
