@@ -21,7 +21,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * **Composite**
 * **Decorator**
 * [**Facade**](./structural/facade.md)
-* [**Flyweight**](./structural/facade.md)
+* [**Flyweight**](./structural/flyweight.md)
 * **Proxy**
 
 #### 🤝 Behavioral
