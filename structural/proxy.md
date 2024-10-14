@@ -55,3 +55,6 @@ $proxy->read();
 Opening: The Lord of the Rings
 Reading: The Lord of the Rings
 ```
+
+#### Analysis:
+Subsequent call to `$proxy->read()` will use existing instance cached inside the proxy, instead of creating new one every time.
