@@ -63,11 +63,11 @@ Book: The Lord of the Rings is shared with C
 
 ```php
 if ($book1 === $book3) {
-    echo "Both are the same SharedBook instance";
+    echo "Both are the same instance";
 }
 ```
 
 We should get:
 ```txt
-Both are the same SharedBook instance
+Both are the same instance
 ```
