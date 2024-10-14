@@ -22,7 +22,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * **Decorator**
 * [**Facade**](./structural/facade.md)
 * [**Flyweight**](./structural/flyweight.md)
-* **Proxy**
+* [**Proxy**](./structural/proxy.md)
 
 #### 🤝 Behavioral
 * **Chain of Responsibility**
