@@ -50,3 +50,6 @@ $singleton->printInfo();
 ```txt
 Singleton instance
 ```
+
+#### Note:
+`__serialize()`, `__unserialize()`, `__sleep()` and `__wakeup()` must have **public** visibility or PHP will generate warning or notice (in previous version).
