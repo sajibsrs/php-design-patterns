@@ -1,7 +1,7 @@
 # Design Patterns
 The intention is to simplify the ideas of different design patterns. Focusing on what actually matters.
 
-All code examples are overly simplified and uses same or similar concepts to make it easy to understand and relate.
+All code examples are overly simplified and uses same or similar concept to make it easy to understand and relate.
 
 In some case there's **`Improvement`** section that describes how some certain pattern or it's usage can be improved with little effort.
 
