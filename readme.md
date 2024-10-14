@@ -29,7 +29,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Command**](./behavioral/command.md)
 * **Iterator**
 * **Mediator**
-* **Memento**
+* [**Memento**](./behavioral/memento.md)
 * **Observer**
 * [**State**](./behavioral/state.md)
 * **Strategy**
