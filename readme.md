@@ -29,7 +29,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * **Mediator**
 * **Memento**
 * **Observer**
-* **State**
+* [**State**](./behavioral/state.md)
 * **Strategy**
 * **Template Method**
 * **Visitor**
