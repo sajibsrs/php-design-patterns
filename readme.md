@@ -18,7 +18,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 #### 🏛️ Structural
 * **Adapter**
 * **Bridge**
-* **Composite**
+* [**Composite**](./structural/composite.md)
 * [**Decorator**](./structural/decorator.md)
 * [**Facade**](./structural/facade.md)
 * [**Flyweight**](./structural/flyweight.md)
