@@ -36,6 +36,7 @@ class BookAdapter implements Book
 
     public function read(): void
     {
+        // Speech to text API code
         $this->audioBook->listen();
     }
 }
