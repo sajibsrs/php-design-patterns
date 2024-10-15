@@ -7,6 +7,10 @@ interface BookComponent
 {
     public function display(): void;
 }
+```
+
+```php
+// Leaf
 
 class Chapter implements BookComponent
 {
@@ -20,6 +24,8 @@ class Chapter implements BookComponent
 ```
 
 ```php
+// Composite
+
 class Book implements BookComponent
 {
     private array $chapters = [];
