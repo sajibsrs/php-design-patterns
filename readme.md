@@ -25,7 +25,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Proxy**](./structural/proxy.md)
 
 #### 🤝 Behavioral
-* **Chain of Responsibility**
+* [**Chain of Responsibility**](./behavioral/chain-of-responsibility.md)
 * [**Command**](./behavioral/command.md)
 * **Iterator**
 * **Mediator**
