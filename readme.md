@@ -16,7 +16,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Singleton**](./creational/singleton.md)
 
 #### 🏛️ Structural
-* **Adapter**
+* [**Adapter**](./structural/adapter.md)
 * [**Bridge**](./structural/bridge.md)
 * [**Composite**](./structural/composite.md)
 * [**Decorator**](./structural/decorator.md)
