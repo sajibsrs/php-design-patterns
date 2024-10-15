@@ -1,8 +1,8 @@
 # Bridge Design Pattern
 Bridge Pattern separates an abstraction from its implementation so that both can evolve independently.
 
-- Abstraction: Defines the interface for high-level functionality.
-- Implementor: Defines the interface for the underlying functionality.
+> **Abstraction:** Defines the interface for high-level functionality.
+> **Implementor:** Defines the interface for the underlying functionality.
 
 ### How to apply
 ```php
