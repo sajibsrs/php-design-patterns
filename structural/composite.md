@@ -34,7 +34,7 @@ class Book implements BookComponent
 
     public function add(Chapter $chapter): void
     {
-        array_push($this->chapters, $chapter);
+        $this->chapters[] = $chapter;
     }
 
     public function remove(Chapter $chapter): void
