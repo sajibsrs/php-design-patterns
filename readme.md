@@ -30,6 +30,6 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Memento**](./behavioral/memento.md)
 * [**Observer**](./behavioral/observer.md)
 * [**State**](./behavioral/state.md)
-* **Strategy**
+* [**Strategy**](./behavioral/strategy.md)
 * **Template Method**
 * **Visitor**
