@@ -26,7 +26,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Chain of Responsibility**](./behavioral/chain-of-responsibility.md)
 * [**Command**](./behavioral/command.md)
 * [**Iterator**](./behavioral/iterator.md)
-* **Mediator**
+* [**Mediator**](./behavioral/mediator.md)
 * [**Memento**](./behavioral/memento.md)
 * **Observer**
 * [**State**](./behavioral/state.md)
