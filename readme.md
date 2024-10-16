@@ -31,5 +31,5 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Observer**](./behavioral/observer.md)
 * [**State**](./behavioral/state.md)
 * [**Strategy**](./behavioral/strategy.md)
-* **Template Method**
+* [**Template Method**](./behavioral/template-method.md)
 * **Visitor**
