@@ -28,7 +28,7 @@ In some case there's **`Improvement`** section that describes how some certain p
 * [**Iterator**](./behavioral/iterator.md)
 * [**Mediator**](./behavioral/mediator.md)
 * [**Memento**](./behavioral/memento.md)
-* **Observer**
+* [**Observer**](./behavioral/observer.md)
 * [**State**](./behavioral/state.md)
 * **Strategy**
 * **Template Method**
