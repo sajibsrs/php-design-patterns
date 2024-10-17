@@ -4,7 +4,8 @@ The intention is to simplify the ideas of different design patterns. Focusing on
 In some case there's **`Improvement`** section that describes how some certain pattern or it's usage can be improved with little effort.
 
 ### Design Patterns:
->Examples uses PHP 8.0 or above.
+>Examples uses PHP 8.0 or above but anyone with experience with other programming language should be able understand right away.
+
 #### 🍎 Creational
 * [**Simple Factory**](./creational/simple-factory.md)
 * [**Factory Method**](./creational/factory-method.md)
